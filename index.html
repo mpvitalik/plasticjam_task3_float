@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Task 3</title>
+	<style>
+	.container {
+		width: 400px;
+		margin: 20px auto;
+		padding: 10px;
+		box-shadow: 0 0 2px #cccccc;
+	}
+
+	.columns-container {
+		padding: 10px;
+		background: #ecf0f1;
+		border: 2px solid #34495e;
+	}
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.float {
+		width: 150px;
+		min-height: 100px;
+		padding: 10px;
+		color: white;
+		background: #3498db;
+		border: 2px solid #34495e;
+	}
+
+	.float {
+		float: left;
+	}
+
+	.float2 {
+		float: right;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="columns-container clearfix">
+			<div class="float float1">
+				.float1<br>
+			</div>
+			<div class="float float2">
+				.float2
+			</div>
+		</div>
+	</div>
+</body>
+</html>
